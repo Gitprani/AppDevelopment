@@ -1,0 +1,38 @@
+/* src/styles/Garages.css */
+.garages-container {
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.9); /* Slightly opaque background */
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .garages-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .garages-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .garage-item {
+    background: rgba(245, 245, 245, 0.9); /* Light background for items */
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .garage-item h3 {
+    margin: 0 0 0.5rem;
+    color: #007bff;
+  }
+  
+  .garage-item p {
+    margin: 0;
+    color: #666;
+  }
+  

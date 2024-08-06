@@ -1,0 +1,21 @@
+/* src/styles/ProfilePage.css */
+
+.profile-page-container {
+  margin: 1rem;
+  padding: 1.5rem;
+  background: rgba(0, 0, 0, 0.8);
+  color: #faf5f5;
+  border-radius: 6px;
+}
+
+.profile-page-container h2 {
+  font-size: 2rem;
+  color: #ffd700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.profile-page-container p {
+  font-size: 1.25rem;
+  margin: 2rem 0;
+}

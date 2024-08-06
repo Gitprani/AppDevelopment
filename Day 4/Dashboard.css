@@ -1,0 +1,123 @@
+/* src/styles/Dashboard.css */
+
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+  background: url('../styles/images/garage.jpg') no-repeat center center/cover;
+  color: #faf5f5;
+}
+
+.sidebar {
+  width: 250px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 2rem 1rem 1rem; /* Added top padding for spacing */
+  border-right: 2px solid #333;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sidebar h2 {
+  font-size: 1.5rem;
+  color: #ffd700;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sidebar li {
+  font-size: 1.25rem;
+}
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.sidebar a:hover {
+  color: #ffd700;
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 2rem;
+  padding-top: 2rem; /* Adjusted padding to account for the navbar */
+  margin-left: 250px; /* Adjust to account for the sidebar width */
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.search-bar {
+  width: 300px;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.dashboard-summary {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.summary-card {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 30%;
+  text-align: center;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.summary-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.summary-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.summary-card p {
+  font-size: 1.25rem;
+  color: #ffd700;
+}
+
+.dashboard-details {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.dashboard-details h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.dashboard-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dashboard-details li {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}

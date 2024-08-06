@@ -1,0 +1,77 @@
+.landing-board-container {
+    padding: 4rem;
+    background: url('../styles/images/garage.jpg') no-repeat center center/cover;
+    color: #fff;
+  }
+  
+  .landing-board-header {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  
+  .landing-board-header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .landing-board-header p {
+    font-size: 1.25rem;
+  }
+  
+  .landing-board-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .intro-section,
+  .common-repairs-section,
+  .advanced-tips-section,
+  .safety-tips-section,
+  .troubleshooting-section {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  
+  .intro-section h2,
+  .common-repairs-section h2,
+  .advanced-tips-section h2,
+  .safety-tips-section h2,
+  .troubleshooting-section h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  
+  .common-repairs-section ul,
+  .advanced-tips-section ul,
+  .safety-tips-section ul,
+  .troubleshooting-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .common-repairs-section li,
+  .advanced-tips-section li,
+  .safety-tips-section li,
+  .troubleshooting-section li {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  .common-repairs-section li strong,
+  .advanced-tips-section li strong,
+  .safety-tips-section li strong,
+  .troubleshooting-section li strong {
+    color: #ffd700;
+  }
+  
+  .common-repairs-section li p,
+  .advanced-tips-section li p,
+  .safety-tips-section li p,
+  .troubleshooting-section li p {
+    color: #ccc;
+  }
+  

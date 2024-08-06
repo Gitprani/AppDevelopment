@@ -1,0 +1,76 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('../styles/images/garage.jpg') no-repeat center center/cover;
+}
+
+.login-card {
+  background: rgba(250, 248, 248, 0.926); /* Slightly opaque for a frosted glass effect */
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(252, 250, 250, 0.986);
+  width: 200%;
+  max-width: 400px;
+  backdrop-filter: blur(10px); /* Adds a frosted glass effect */
+}
+
+.login-title {
+  text-align: center;
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff; /* White color for the login title */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-field {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: #f9f9f9;
+  transition: background 0.3s ease;
+}
+
+.form-field:focus {
+  background: #fff;
+  border-color: #f0f0f1;
+  outline: none;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.submit-button {
+  padding: 0.75rem;
+  background-color: #fafcfd;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.submit-button:disabled {
+  background-color: #f7f9fbfc;
+  cursor: not-allowed;
+}
